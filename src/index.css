@@ -89,7 +89,11 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: lightgray;
+}
+
+div a:hover {
+  opacity: .7;
 }
 
 header {
@@ -101,6 +105,7 @@ footer {
   display: flex;
   justify-content: center;
   height: 50px;
+  margin-bottom: 50px;
 }
 
 footer a {
@@ -183,7 +188,7 @@ textarea {
 }
 
 .container {
-  width: 85%;
+  width: 100%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
