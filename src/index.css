@@ -96,6 +96,22 @@ header {
   background: var(--dark);
 }
 
+footer {
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+footer a {
+  font-size: 35px;
+  color: white;
+}
+
+footer a:hover {
+  color: lightgrey;
+}
+
 header a {
   color: var(--light);
 }
