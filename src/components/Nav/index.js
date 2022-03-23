@@ -1,34 +1,29 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
-function Nav(props) {
-    
-const {
-    contactSelected,
-    setContactSelected
-} = props;
-
-  const handleClick = () => {
-    console.log("click handled");
-  };
+function Nav() {
 
   return (
     <header data-testid="header" className="flex-row px-1">
-      <h2>Adam Menkes</h2>
+        <Link to="/">
+            <h2>Adam Menkes</h2>
+        </Link>
+      
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-          <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
+              <Link to="/about">
+              About Me
+              </Link>
           </li>
           <li className={"mx-2"}>
-            <span onClick={() => handleClick()}>Portfolio</span>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-          <span onClick={() => setContactSelected(true)}>Contact</span>
+            <Link to="portfolio">Portfolio</Link>
           </li>
           <li className={"mx-2"}>
-              <span onClick={() => handleClick()}>Resume</span>
+          <Link to="/contact">Contact</Link>
+          </li>
+          <li className={"mx-2"}>
+              <Link to="/resume">Resume</Link>
           </li>
         </ul>
       </nav>
