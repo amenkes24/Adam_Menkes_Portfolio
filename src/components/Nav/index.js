@@ -20,10 +20,7 @@ function Nav() {
             <Link to="portfolio">Portfolio</Link>
           </li>
           <li className={"mx-2"}>
-          <Link to="/contact">Contact</Link>
-          </li>
-          <li className={"mx-2"}>
-              <Link to="/resume">Resume</Link>
+          <Link to="/skills">Skills</Link>
           </li>
         </ul>
       </nav>

@@ -9,7 +9,7 @@ import noteTaker from "../../assets/projects/noteTaker.JPG";
 function Portfolio() {
   return (
     <section className="my-5">
-      <h1 id="about">This is my Portfolio</h1>
+      <h1 id="about">Portfolio</h1>
       <div className="container">
         <div className="row">
           <div className="col">

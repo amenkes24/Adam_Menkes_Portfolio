@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
 import NoMatch from './components/NoMatch';
 import Footer from './components/Footer';
+import Skills from './components/Contact';
 
 function App() {
   return (
@@ -18,8 +17,7 @@ function App() {
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/skills" component={Skills} />
 
           <Route component={NoMatch} />
         </Switch>
