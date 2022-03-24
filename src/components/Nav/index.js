@@ -5,7 +5,7 @@ function Nav() {
 
   return (
     <header data-testid="header" className="flex-row px-1">
-        <Link to="/">
+        <Link to="/adam-port/">
             <h2>Adam Menkes</h2>
         </Link>
       
