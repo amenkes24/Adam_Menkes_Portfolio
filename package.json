@@ -2,7 +2,7 @@
   "name": "adam-port",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://<username>.github.io/adam-port",
+  "homepage": "http://amenkes24.github.io/adam-port",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
