@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/adam-port/static/css/main.22a747e6.css",
+    "main.js": "/adam-port/static/js/main.20b5f85b.js",
+    "static/js/787.203bbbdf.chunk.js": "/adam-port/static/js/787.203bbbdf.chunk.js",
+    "static/media/headshotCircle.png": "/adam-port/static/media/headshotCircle.59f3b8c429056cc0f8f8.png",
+    "static/media/bookSearch.jpg": "/adam-port/static/media/bookSearch.350bd20cd813e25653c7.jpg",
+    "static/media/employeeTracker.JPG": "/adam-port/static/media/employeeTracker.5c53a93d4c70000d85d8.JPG",
+    "static/media/budgetTracker.JPG": "/adam-port/static/media/budgetTracker.5a64ee1e1f7b90900142.JPG",
+    "static/media/fwitter.JPG": "/adam-port/static/media/fwitter.ce1f8bd52aba22307b74.JPG",
+    "static/media/movieChat.JPG": "/adam-port/static/media/movieChat.d9915335f702de48ae2a.JPG",
+    "static/media/noteTaker.JPG": "/adam-port/static/media/noteTaker.8ce27751fa64ccffd5cb.JPG",
+    "index.html": "/adam-port/index.html",
+    "main.22a747e6.css.map": "/adam-port/static/css/main.22a747e6.css.map",
+    "main.20b5f85b.js.map": "/adam-port/static/js/main.20b5f85b.js.map",
+    "787.203bbbdf.chunk.js.map": "/adam-port/static/js/787.203bbbdf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22a747e6.css",
+    "static/js/main.20b5f85b.js"
+  ]
+}
