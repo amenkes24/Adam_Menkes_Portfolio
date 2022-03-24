@@ -215,12 +215,13 @@ textarea {
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
+  margin-top: 100px;
 }
 
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
-  font-family: 'Roboto', sans-serif;
+  margin-top: var(--spacing-two);
 }
 
 .my-1 {
