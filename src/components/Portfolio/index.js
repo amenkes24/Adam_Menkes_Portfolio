@@ -40,7 +40,7 @@ function Portfolio() {
 
         <div className="row">
           <div className="col">
-            <h6>Movie Chat</h6>
+            <h4>Movie Chat</h4>
             <p>
               An application that allows users to write reviews about movies and
               interact with other users.
@@ -48,7 +48,7 @@ function Portfolio() {
           </div>
 
           <div className="col">
-            <h6>Book Search Engine</h6>
+            <h4>Book Search Engine</h4>
             <p>
               An application set up to allow users to save book searches to the
               back end by using a fully functioning Google Books API search
@@ -83,7 +83,7 @@ function Portfolio() {
 
         <div className="row">
           <div className="col">
-            <h6>Fwitter</h6>
+            <h4>Fwitter</h4>
             <p>
               A social media application that allows users to post unfiltered
               thoughts on a public forum.
@@ -91,7 +91,7 @@ function Portfolio() {
           </div>
 
           <div className="col">
-            <h6>Budget Tracker</h6>
+            <h4>Budget Tracker</h4>
             <p>
             An application that allows for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection.
             </p>
@@ -126,14 +126,14 @@ function Portfolio() {
 
         <div className="row">
           <div className="col">
-            <h6>Note Taker</h6>
+            <h4>Note Taker</h4>
             <p>
             An application that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
             </p>
           </div>
 
           <div className="col">
-            <h6>Employee Tracker</h6>
+            <h4>Employee Tracker</h4>
             <p>
             A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
             </p>

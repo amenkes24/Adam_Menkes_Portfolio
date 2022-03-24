@@ -88,6 +88,10 @@ a {
   font-weight: bold;
 }
 
+div a {
+  font-family: 'Roboto', sans-serif;
+}
+
 a:hover {
   color: lightgray;
 }
@@ -170,6 +174,7 @@ input:focus {
 
 li {
   list-style: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav a:hover {

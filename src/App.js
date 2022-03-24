@@ -5,7 +5,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import NoMatch from './components/NoMatch';
 import Footer from './components/Footer';
-import Skills from './components/Contact';
+import Skills from './components/Skills';
 
 function App() {
   return (
